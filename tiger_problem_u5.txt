@@ -1,0 +1,54 @@
+# States
+LoN RoN LoL RoL LoR RoR
+
+# Observations
+Nothing TigerLeft TigerRight
+
+# Actions
+Left Right Listen
+
+# Observations states list
+Nothing LoN RoN
+TigerLeft LoL RoL
+TigerRight LoR RoR
+
+# Observation actions list
+Nothing Left Right Listen
+TigerLeft Left Right Listen
+TigerRight Left Right Listen
+
+# Transitions
+# Left
+0.5 0.5 0.5 0.5 0 0 0 0 0 0 0 0
+0.5 0.5 0.5 0.5 0 0 0 0 0 0 0 0
+0.5 0.5 0.5 0.5 0 0 0 0 0 0 0 0
+0.5 0.5 0.5 0.5 0 0 0 0 0 0 0 0
+0.5 0.5 0.5 0.5 0 0 0 0 0 0 0 0
+0.5 0.5 0.5 0.5 0 0 0 0 0 0 0 0
+
+# Right
+0.5 0.5 0.5 0.5 0 0 0 0 0 0 0 0
+0.5 0.5 0.5 0.5 0 0 0 0 0 0 0 0
+0.5 0.5 0.5 0.5 0 0 0 0 0 0 0 0
+0.5 0.5 0.5 0.5 0 0 0 0 0 0 0 0
+0.5 0.5 0.5 0.5 0 0 0 0 0 0 0 0
+0.5 0.5 0.5 0.5 0 0 0 0 0 0 0 0
+
+# Listen
+0 0 0 0 0.45 0.95 0 0 0.05 0.55 0 0
+0 0 0 0 0 0 0.05 0.55 0 0 0.45 0.95
+0 0 0 0 0.45 0.95 0 0 0.05 0.55 0 0
+0 0 0 0 0 0 0.05 0.55 0 0 0.45 0.95
+0 0 0 0 0.45 0.95 0 0 0.05 0.55 0 0
+0 0 0 0 0 0 0.05 0.55 0 0 0.45 0.95
+
+# Initial belief
+0.5 0.5 0.5 0.5 0 0 0 0 0 0 0 0
+
+# Reward
+-100 10 -1
+10 -100 -1
+-100 10 -1
+10 -100 -1
+-100 10 -1
+10 -100 -1
